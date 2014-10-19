@@ -1,0 +1,39 @@
+/* Buttons
+   ========================================================================== */
+input[type='submit'],
+button,
+.btn{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background:#F2BA52;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.7rem 1.5rem;
+    vertical-align: middle;
+    white-space: nowrap;
+    box-shadow: inset 0px 5px rgba(0,0,0,0.1);
+}
+input[type='submit']:hover,
+button:hover,
+.btn:hover {
+    color:#F2BA52;
+    background: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 40rem) {
+    input[type='submit'],
+    button,
+    .btn {
+        display: inline-block;
+        font-size: 0.9rem;
+    }
+}

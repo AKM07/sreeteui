@@ -1,0 +1,41 @@
+/* Code
+   ========================================================================== */
+
+code {
+  background-color: #f8f8f8;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.3rem;
+  position: relative;
+  top: -1px;
+  white-space: nowrap;
+}
+
+/* Gist Overrides
+   ========================================================================== */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 39rem;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}

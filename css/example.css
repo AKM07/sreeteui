@@ -1,0 +1,132 @@
+/* Examples
+   ========================================================================== */
+
+.example {
+  border-top: none;
+  background-color: #497bad;
+  color: #fff;
+}
+
+.example p { color: rgba(255,255,255,0.7); }
+.example img { margin: 0; }
+
+.fragmentation {
+  background-image: url("/images/fragmentation.png");
+  background-size: cover;
+  min-height: 250px;
+}
+
+@media (min-width: 40rem) {
+  .fragmentation { min-height: 500px; }
+}
+
+.mobile-first .cl {
+  float: none;
+  margin-bottom: 1rem;
+}
+
+.grid { text-align: center; }
+
+.grid span {
+  background: rgba(225,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.2);
+  display: block;
+  padding: 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.grid .container {
+  border: 2px dashed rgba(255,255,255,0.3);
+  padding: 1rem 1rem 0 1rem;
+}
+
+@media (min-width: 40rem) {
+  .grid .container { padding: 1rem 0 0 0; }
+}
+
+.grid .cl { margin-bottom: 1rem; }
+
+.row-example .container {
+  border: 2px dashed rgba(255,255,255,0.2);
+  padding: 1rem;
+}
+
+.row-example .row {
+  background: rgba(225,255,255,0.1);
+  border: 2px solid rgba(255,255,255,0.2);
+  padding: 1rem 1rem 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.row-example .row:last-of-type { margin-bottom: 0; }
+
+@media (min-width: 40rem) {
+  .row-example .row { padding: 1rem 0 0 0; }
+}
+/* Header
+   ========================================================================== */
+
+.intro { margin: 2rem 0; }
+
+@media (min-width: 40rem) {
+  .intro { margin: 4rem 0; }
+}
+
+.mobile {
+  margin: 0 auto;
+  max-width: 150px;
+}
+
+@media (min-width: 40rem) {
+  .mobile { max-width: 250px; }
+}
+.navbar {
+    background:#D99962;
+}
+.navbar h1 {
+  border: 3px solid #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+  padding: .4rem .6rem;
+  display: inline-block;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin: 1rem 0;
+}
+.navbar .item.fa{
+  border: 3px solid #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+   border-radius: 3px;
+   margin: 1.5rem 0;
+   font-size: 1.8rem;
+   padding: .4rem .6rem;
+}
+
+.gutters {
+  border: 2px dashed #eee;
+  margin-bottom: 2rem;
+  max-width: 39rem;
+  padding: 1rem 1rem 0 1rem;
+}
+
+.gutters .cl {
+  background: #fb917e;
+  margin-bottom: 1rem;
+}
+
+.gutters span {
+  background: #f8f8f8;
+  color: #999;
+  display: block;
+  padding: 1rem 0;
+}
+
+/* Utilities
+   ========================================================================== */
+
+.remove-padding { padding-bottom: 0; }
+.remove-border { border: none; }

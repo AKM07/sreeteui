@@ -1,0 +1,11 @@
+/* Lists
+   ========================================================================== */
+
+ul {
+  margin: 0;
+  text-align: left;
+}
+
+@media (min-width: 40rem) {
+  ul { display: inline-block; }
+}

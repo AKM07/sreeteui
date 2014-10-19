@@ -1,0 +1,43 @@
+/* Elements
+   ========================================================================== */
+
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 2rem auto;
+  width: 3rem;
+}
+
+@media (min-width: 40rem) {
+  hr { margin: 2.5rem auto; }
+}
+
+hr.small { margin: 1.5rem auto; }
+
+.circle {
+  border: 3px solid #555;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  color: #555;
+  display: block;
+  font-size: 1.7rem;
+  font-weight: 600;
+  height: 3.2rem;
+  line-height: 1.7em;
+  margin: 0 auto 1rem auto;
+  text-align: center;
+  width: 3.2rem;
+}
+
+img {
+  display: block;
+  height: auto;
+  margin: 0 auto 1.5rem auto;
+  width: 100%;
+}
+
+.rwd {
+  margin: 0 auto 1.5rem auto;
+  max-width: 440px;
+}
